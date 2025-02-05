@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.venv
+.env
+
+# Django specific
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Ignore secret keys and environment settings
+.env
+config/settings/local.py
+config/settings/*.local.py
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage and testing
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Migrations (optional: keep them if needed)
+**/migrations/*.py
+**/migrations/*.pyc
